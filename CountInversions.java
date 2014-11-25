@@ -94,7 +94,7 @@ public class CountInversions {
 		BufferedReader br = null;
 		List<Integer> numbers = new LinkedList<Integer>();
 		try {
-			br = new BufferedReader(new FileReader("/Users/miguelangelnavasgarcia/Documents/workspace/CountInversions/src/IntegerArray.txt"));
+			br = new BufferedReader(new FileReader("../file.txt"));
 
 			String line = br.readLine();
 
